@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 // change base to `"/<your-repo-name>/"` before deploying.
 export default defineConfig({
   plugins: [react()],
-  base: "/hide-his-word/",
+  base: "/HideHisWord/",
 });
