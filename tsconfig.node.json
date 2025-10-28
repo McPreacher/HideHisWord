@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "ES2020"
+    ]
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}
