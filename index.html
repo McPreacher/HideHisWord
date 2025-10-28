@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0f172a" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+<script type="module" src="/src/main.tsx"></script> <!-- leave this, Vite will rewrite on build -->
+
     <title>Hide His Word</title>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx"></script> <!-- leave this, Vite will rewrite on build -->
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
